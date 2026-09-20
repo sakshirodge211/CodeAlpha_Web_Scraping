@@ -1,0 +1,92 @@
+# CodeAlpha Task 2 - Exploratory Data Analysis
+
+## Project Overview
+
+This project performs Exploratory Data Analysis (EDA) on a dataset of 1,000 books collected from Books to Scrape.
+
+The analysis focuses on book prices, ratings, data quality, and patterns in the dataset.
+
+## Dataset
+
+The dataset contains the following columns:
+
+- Title
+- Price
+- Rating
+- Availability
+- Product_URL
+
+Total Records: 1,000
+
+## Data Quality
+
+- Missing Values: 0
+- Duplicate Records: 0
+
+## Analysis Performed
+
+The following analysis was performed:
+
+1. Dataset structure and data types
+2. Missing value analysis
+3. Duplicate record detection
+4. Price statistics
+5. Rating distribution
+6. Average price by rating
+7. Top 10 most expensive books
+8. Data visualization
+
+## Key Findings
+
+### Price Analysis
+
+- Minimum book price: £10.00
+- Maximum book price: £59.99
+- Average book price: £35.07
+- Median book price: £35.98
+
+### Rating Analysis
+
+- 1-star: 226 books
+- 2-star: 196 books
+- 3-star: 203 books
+- 4-star: 179 books
+- 5-star: 196 books
+
+### Observations
+
+- Book prices are distributed approximately between £10 and £60.
+- 1-star rated books are the most frequent rating category.
+- 4-star rated books are the least frequent rating category.
+- Average prices across rating categories are relatively similar, approximately £34–£36.
+- The most expensive book in the dataset is "The Perfect Play (Play by Play #1)" priced at £59.99.
+
+## Visualizations
+
+The project includes:
+
+- Book Price Distribution
+- Book Rating Distribution
+- Average Book Price by Rating
+
+## Technologies Used
+
+- Python
+- Pandas
+- Matplotlib
+- BeautifulSoup
+- Requests
+
+## Project Files
+
+- `scraper.py` - Web scraping code
+- `books_data.csv` - Original scraped dataset
+- `eda.py` - EDA and visualization code
+- `books_eda.csv` - Analyzed dataset
+- `price_distribution.png` - Price distribution chart
+- `rating_distribution.png` - Rating distribution chart
+- `average_price_by_rating.png` - Average price by rating chart
+
+## Conclusion
+
+The EDA provides an overview of book prices and ratings in the collected dataset. The analysis demonstrates data cleaning, statistical analysis, pattern identification, and data visualization using Python.
